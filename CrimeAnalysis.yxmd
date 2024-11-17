@@ -1,0 +1,1385 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2024.1" RunE2="T">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\Devesh\Documents\HW1\Crimes_-_2001_to_Present_20240924.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText><![CDATA[Adding file which contains crime details in chicago from 2001 till present.
+]]></AnnotationText>
+          <DefaultAnnotationText>Crimes_-_2001_to_Present_20240924.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ID" size="254" source="File: C:\Users\Devesh\Documents\HW1\Crimes_-_2001_to_Present_20240924.csv" type="V_WString" />
+            <Field name="Case Number" size="254" source="File: C:\Users\Devesh\Documents\HW1\Crimes_-_2001_to_Present_20240924.csv" type="V_WString" />
+            <Field name="Date" size="254" source="File: C:\Users\Devesh\Documents\HW1\Crimes_-_2001_to_Present_20240924.csv" type="V_WString" />
+            <Field name="Block" size="254" source="File: C:\Users\Devesh\Documents\HW1\Crimes_-_2001_to_Present_20240924.csv" type="V_WString" />
+            <Field name="IUCR" size="254" source="File: C:\Users\Devesh\Documents\HW1\Crimes_-_2001_to_Present_20240924.csv" type="V_WString" />
+            <Field name="Primary Type" size="254" source="File: C:\Users\Devesh\Documents\HW1\Crimes_-_2001_to_Present_20240924.csv" type="V_WString" />
+            <Field name="Description" size="254" source="File: C:\Users\Devesh\Documents\HW1\Crimes_-_2001_to_Present_20240924.csv" type="V_WString" />
+            <Field name="Location Description" size="254" source="File: C:\Users\Devesh\Documents\HW1\Crimes_-_2001_to_Present_20240924.csv" type="V_WString" />
+            <Field name="Arrest" size="254" source="File: C:\Users\Devesh\Documents\HW1\Crimes_-_2001_to_Present_20240924.csv" type="V_WString" />
+            <Field name="Domestic" size="254" source="File: C:\Users\Devesh\Documents\HW1\Crimes_-_2001_to_Present_20240924.csv" type="V_WString" />
+            <Field name="Beat" size="254" source="File: C:\Users\Devesh\Documents\HW1\Crimes_-_2001_to_Present_20240924.csv" type="V_WString" />
+            <Field name="District" size="254" source="File: C:\Users\Devesh\Documents\HW1\Crimes_-_2001_to_Present_20240924.csv" type="V_WString" />
+            <Field name="Ward" size="254" source="File: C:\Users\Devesh\Documents\HW1\Crimes_-_2001_to_Present_20240924.csv" type="V_WString" />
+            <Field name="Community Area" size="254" source="File: C:\Users\Devesh\Documents\HW1\Crimes_-_2001_to_Present_20240924.csv" type="V_WString" />
+            <Field name="FBI Code" size="254" source="File: C:\Users\Devesh\Documents\HW1\Crimes_-_2001_to_Present_20240924.csv" type="V_WString" />
+            <Field name="X Coordinate" size="254" source="File: C:\Users\Devesh\Documents\HW1\Crimes_-_2001_to_Present_20240924.csv" type="V_WString" />
+            <Field name="Y Coordinate" size="254" source="File: C:\Users\Devesh\Documents\HW1\Crimes_-_2001_to_Present_20240924.csv" type="V_WString" />
+            <Field name="Year" size="254" source="File: C:\Users\Devesh\Documents\HW1\Crimes_-_2001_to_Present_20240924.csv" type="V_WString" />
+            <Field name="Updated On" size="254" source="File: C:\Users\Devesh\Documents\HW1\Crimes_-_2001_to_Present_20240924.csv" type="V_WString" />
+            <Field name="Latitude" size="254" source="File: C:\Users\Devesh\Documents\HW1\Crimes_-_2001_to_Present_20240924.csv" type="V_WString" />
+            <Field name="Longitude" size="254" source="File: C:\Users\Devesh\Documents\HW1\Crimes_-_2001_to_Present_20240924.csv" type="V_WString" />
+            <Field name="Location" size="254" source="File: C:\Users\Devesh\Documents\HW1\Crimes_-_2001_to_Present_20240924.csv" type="V_WString" />
+            <Field name="Historical Wards 2003-2015" size="254" source="File: C:\Users\Devesh\Documents\HW1\Crimes_-_2001_to_Present_20240924.csv" type="V_WString" />
+            <Field name="Zip Codes" size="254" source="File: C:\Users\Devesh\Documents\HW1\Crimes_-_2001_to_Present_20240924.csv" type="V_WString" />
+            <Field name="Community Areas" size="254" source="File: C:\Users\Devesh\Documents\HW1\Crimes_-_2001_to_Present_20240924.csv" type="V_WString" />
+            <Field name="Census Tracts" size="254" source="File: C:\Users\Devesh\Documents\HW1\Crimes_-_2001_to_Present_20240924.csv" type="V_WString" />
+            <Field name="Wards" size="254" source="File: C:\Users\Devesh\Documents\HW1\Crimes_-_2001_to_Present_20240924.csv" type="V_WString" />
+            <Field name="Boundaries - ZIP Codes" size="254" source="File: C:\Users\Devesh\Documents\HW1\Crimes_-_2001_to_Present_20240924.csv" type="V_WString" />
+            <Field name="Police Districts" size="254" source="File: C:\Users\Devesh\Documents\HW1\Crimes_-_2001_to_Present_20240924.csv" type="V_WString" />
+            <Field name="Police Beats" size="254" source="File: C:\Users\Devesh\Documents\HW1\Crimes_-_2001_to_Present_20240924.csv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\Devesh\Documents\HW1\police-stations.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>True</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Adding file which contains Police station district details in chicago.</AnnotationText>
+          <DefaultAnnotationText>police-stations.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="DISTRICT" size="254" source="File: C:\Users\Devesh\Documents\HW1\police-stations.csv" type="V_String" />
+            <Field name="DISTRICT NAME" size="254" source="File: C:\Users\Devesh\Documents\HW1\police-stations.csv" type="V_String" />
+            <Field name="ADDRESS" size="254" source="File: C:\Users\Devesh\Documents\HW1\police-stations.csv" type="V_String" />
+            <Field name="CITY" size="254" source="File: C:\Users\Devesh\Documents\HW1\police-stations.csv" type="V_String" />
+            <Field name="STATE" size="254" source="File: C:\Users\Devesh\Documents\HW1\police-stations.csv" type="V_String" />
+            <Field name="ZIP" size="254" source="File: C:\Users\Devesh\Documents\HW1\police-stations.csv" type="V_String" />
+            <Field name="WEBSITE" size="254" source="File: C:\Users\Devesh\Documents\HW1\police-stations.csv" type="V_String" />
+            <Field name="PHONE" size="254" source="File: C:\Users\Devesh\Documents\HW1\police-stations.csv" type="V_String" />
+            <Field name="FAX" size="254" source="File: C:\Users\Devesh\Documents\HW1\police-stations.csv" type="V_String" />
+            <Field name="TTY" size="254" source="File: C:\Users\Devesh\Documents\HW1\police-stations.csv" type="V_String" />
+            <Field name="X COORDINATE" size="254" source="File: C:\Users\Devesh\Documents\HW1\police-stations.csv" type="V_String" />
+            <Field name="Y COORDINATE" size="254" source="File: C:\Users\Devesh\Documents\HW1\police-stations.csv" type="V_String" />
+            <Field name="LATITUDE" size="254" source="File: C:\Users\Devesh\Documents\HW1\police-stations.csv" type="V_String" />
+            <Field name="LONGITUDE" size="254" source="File: C:\Users\Devesh\Documents\HW1\police-stations.csv" type="V_String" />
+            <Field name="LOCATION" size="254" source="File: C:\Users\Devesh\Documents\HW1\police-stations.csv" type="V_String" />
+            <Field name="Boundaries - ZIP Codes" size="254" source="File: C:\Users\Devesh\Documents\HW1\police-stations.csv" type="V_String" />
+            <Field name="Community Areas" size="254" source="File: C:\Users\Devesh\Documents\HW1\police-stations.csv" type="V_String" />
+            <Field name="Zip Codes" size="254" source="File: C:\Users\Devesh\Documents\HW1\police-stations.csv" type="V_String" />
+            <Field name="Census Tracts" size="254" source="File: C:\Users\Devesh\Documents\HW1\police-stations.csv" type="V_String" />
+            <Field name="Wards" size="254" source="File: C:\Users\Devesh\Documents\HW1\police-stations.csv" type="V_String" />
+            <Field name="Historical Wards 2003-2015" size="254" source="File: C:\Users\Devesh\Documents\HW1\police-stations.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="162" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>IsNotNull</Operator>
+            <Field>Location Description</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2024-09-24 19:50:54</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>
+              </Operand>
+              <StartDate>2024-09-24 19:50:54</StartDate>
+              <EndDate>2024-09-24 19:50:54</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText><![CDATA[
+Fetching only those rows where Location Description is not null.]]></AnnotationText>
+          <DefaultAnnotationText>!IsNull([Location Description])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="282" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Date" selected="True" />
+            <SelectField field="Primary Type" selected="True" />
+            <SelectField field="Location Description" selected="True" />
+            <SelectField field="Latitude" selected="True" />
+            <SelectField field="Longitude" selected="True" />
+            <SelectField field="Boundaries - ZIP Codes" selected="True" />
+            <SelectField field="Police Districts" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Selecting only important columns like date, primary type, location description, latitude,longitude, Boundary zip- code  and Police district</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="162" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>IsNotNull</Operator>
+            <Field>DISTRICT</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2024-09-24 23:24:00</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>
+              </Operand>
+              <StartDate>2024-09-24 23:24:00</StartDate>
+              <EndDate>2024-09-24 23:24:00</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText><![CDATA[
+Fetching only those rows where district is not null.]]></AnnotationText>
+          <DefaultAnnotationText>!IsNull([DISTRICT])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="474" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Boundaries - ZIP Codes" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Boundaries - ZIP Codes" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_DISTRICT NAME" selected="True" input="Right_" type="V_WString" size="2147483647" />
+                <SelectField field="Right_LATITUDE" selected="True" rename="Right_LATITUDE" input="Right_" type="V_WString" size="2147483647" />
+                <SelectField field="Right_LONGITUDE" selected="True" rename="Right_LONGITUDE" input="Right_" type="V_WString" size="2147483647" />
+                <SelectField field="Right_LOCATION" selected="True" rename="Right_LOCATION" input="Right_" type="V_WString" size="2147483647" />
+                <SelectField field="Right_Boundaries - ZIP Codes" selected="True" rename="Right_Boundaries - ZIP Codes" input="Right_" type="V_WString" size="2147483647" />
+                <SelectField field="Right_Zip Codes" selected="True" rename="Right_Zip Codes" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Joining both the table so selected columns of crime table and all columns of police table will be the output after join. Also changed type of few columns so that data type can be same to summarize and create spatial points.</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="630" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Police Districts" action="CountNonNull" rename="CountNonNull_Police Districts" />
+            <SummarizeField field="Primary Type" action="GroupBy" rename="Primary Type" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Summarized primary type of crime with the police districts. Which show how many police district had how many crimes.</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="66">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.CreatePoints.CreatePoints">
+        <Position x="654" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields fieldX="Longitude" fieldY="Latitude" />
+          <Mode>Double</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>created spatial points of crime table with its latitude and longitude.</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxCreatePoints" />
+    </Node>
+    <Node ToolID="67">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sample.Sample">
+        <Position x="774" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>First</Mode>
+          <N>200</N>
+          <GroupFields orderChanged="False">
+            <Field name="Primary Type" />
+          </GroupFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Since data is too big I used sample tool to see First 200 rows</AnnotationText>
+          <DefaultAnnotationText>First 200 rows</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSample" />
+    </Node>
+    <Node ToolID="68">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="870" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>Primary Type</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2024-10-03 13:23:54</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>ASSAULT</Operand>
+              <StartDate>2024-10-03 13:23:54</StartDate>
+              <EndDate>2024-10-03 13:23:54</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText><![CDATA[
+selected Filter Primary Type = "ASSAULT" to visualize assault on the map]]></AnnotationText>
+          <DefaultAnnotationText>[Primary Type] = "ASSAULT"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="69">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="870" y="-18" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>Primary Type</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2024-10-03 13:23:18</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>THEFT</Operand>
+              <StartDate>2024-10-03 13:23:18</StartDate>
+              <EndDate>2024-10-03 13:23:18</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>selected Filter Primary Type = "THEFT" to visualize theft on the map</AnnotationText>
+          <DefaultAnnotationText>[Primary Type] = "THEFT"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="70">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="870" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>Primary Type</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2024-10-03 13:24:04</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>ROBBERY</Operand>
+              <StartDate>2024-10-03 13:24:04</StartDate>
+              <EndDate>2024-10-03 13:24:04</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText><![CDATA[
+selected Filter Primary Type = "ROBBERY" to visualize robbery on the map]]></AnnotationText>
+          <DefaultAnnotationText>[Primary Type] = "ROBBERY"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="71">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="870" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>Primary Type</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2024-10-03 13:25:33</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>WEAPONS VIOLATION</Operand>
+              <StartDate>2024-10-03 13:25:33</StartDate>
+              <EndDate>2024-10-03 13:25:33</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>[Primary Type] = "WEAPONS VIOLATION"
+
+selected Filter Primary Type = "WEAPONS VIOLATION" to visualize weapon violation on the map</AnnotationText>
+          <DefaultAnnotationText>[Primary Type] = "WEAPONS VIOLATION"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="72">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="870" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>Primary Type</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2024-10-03 13:23:35</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>BURGLARY</Operand>
+              <StartDate>2024-10-03 13:23:35</StartDate>
+              <EndDate>2024-10-03 13:23:35</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText><![CDATA[
+selected Filter Primary Type = "BURGLARY" to visualize burglary on the map]]></AnnotationText>
+          <DefaultAnnotationText>[Primary Type] = "BURGLARY"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="73">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.ReportMap.ReportMap">
+        <Position x="1074" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TemporaryFileLocationXML>C:\Users\Devesh\AppData\Local\Temp\Alteryx\Engine_18920_6650639ab5a449acad0a5e4242e49033_\Engine_18920_4df4d3e00d9a714181d8f632a59646b4~.xml</TemporaryFileLocationXML>
+          <IsMetric value="False" />
+          <ImageWidth>8</ImageWidth>
+          <ImageHeight>6</ImageHeight>
+          <ImageResolution>1</ImageResolution>
+          <ReferenceMap>Alteryx_Dark</ReferenceMap>
+          <BackgroundColor>#fdfeff</BackgroundColor>
+          <DropShadow>False</DropShadow>
+          <ScaleUnits>Miles</ScaleUnits>
+          <ExpandExtent>10</ExpandExtent>
+          <MinimumWidth>0.5</MinimumWidth>
+          <DataConnections>
+            <DataConnection name="#1">
+              <ConnectionType>IncomingConnection</ConnectionType>
+              <Connection>#1</Connection>
+              <FileName />
+              <SpatialObj>Centroid</SpatialObj>
+              <GroupField />
+              <ThemeField />
+              <LabelField>Primary Type</LabelField>
+            </DataConnection>
+            <DataConnection name="#2">
+              <ConnectionType>IncomingConnection</ConnectionType>
+              <Connection>#2</Connection>
+              <FileName />
+              <SpatialObj>Centroid</SpatialObj>
+              <GroupField />
+              <ThemeField />
+              <LabelField>Primary Type</LabelField>
+            </DataConnection>
+            <DataConnection name="#3">
+              <ConnectionType>IncomingConnection</ConnectionType>
+              <Connection>#3</Connection>
+              <FileName />
+              <SpatialObj>Centroid</SpatialObj>
+              <GroupField />
+              <ThemeField />
+              <LabelField>Primary Type</LabelField>
+            </DataConnection>
+            <DataConnection name="#4">
+              <ConnectionType>IncomingConnection</ConnectionType>
+              <Connection>#4</Connection>
+              <FileName />
+              <SpatialObj>Centroid</SpatialObj>
+              <GroupField />
+              <ThemeField />
+              <LabelField>Primary Type</LabelField>
+            </DataConnection>
+            <DataConnection name="#5">
+              <ConnectionType>IncomingConnection</ConnectionType>
+              <Connection>#5</Connection>
+              <FileName />
+              <SpatialObj>Centroid</SpatialObj>
+              <GroupField />
+              <ThemeField />
+              <LabelField>Primary Type</LabelField>
+            </DataConnection>
+          </DataConnections>
+          <Layers>
+            <Layer name="1" order="0">
+              <LayerType>Points</LayerType>
+              <isBaseLayer value="False" />
+              <isReorderedBaseLayer value="False" />
+              <isRestlyedBaseLayer value="False" />
+              <baseLabelOverriden value="False" />
+              <isThemeLayer value="False" />
+              <DisplayName>THEFT</DisplayName>
+              <DataConnection>#1</DataConnection>
+              <ShowInLegend value="True" />
+              <ZoomToLayer value="True" />
+              <Disable value="False" />
+              <PointStyle StockPointStyle="pushpin" Color="#8080ff" />
+              <ThemeStyle TileMethod="SmartTile" NumTiles="5" ColorMethod="Ramp" StartColor="#0000ff" EndColor="#ff0000" UniqueColors="#dc143c,#6495ed,#f0e68c,#228b22,#a9a9a9,#ffa500,#ba55d3,#a0522d,#ff69b4,#4b0082,#d3d3d3,#9acd32,#00ffff,#808000,#ffb6c1" SpecificValues="" ManualTiles="" NoneSpecificValuesAction="Color" UpperCutoffIncludedExcluded="Excluded" />
+              <LabelStyle Disabled="false" />
+            </Layer>
+            <Layer name="2" order="1">
+              <LayerType>Points</LayerType>
+              <isBaseLayer value="False" />
+              <isReorderedBaseLayer value="False" />
+              <isRestlyedBaseLayer value="False" />
+              <baseLabelOverriden value="False" />
+              <isThemeLayer value="False" />
+              <DisplayName>BURGLARY</DisplayName>
+              <DataConnection>#2</DataConnection>
+              <ShowInLegend value="True" />
+              <ZoomToLayer value="True" />
+              <Disable value="False" />
+              <PointStyle Color="#dff00f" StockPointStyle="triangle" />
+              <ThemeStyle ColorMethod="Ramp" EndColor="#ff0000" ManualTiles="" NoneSpecificValuesAction="Color" NumTiles="5" SpecificValues="" StartColor="#0000ff" TileMethod="SmartTile" UniqueColors="#dc143c,#6495ed,#f0e68c,#228b22,#a9a9a9,#ffa500,#ba55d3,#a0522d,#ff69b4,#4b0082,#d3d3d3,#9acd32,#00ffff,#808000,#ffb6c1" UpperCutoffIncludedExcluded="Excluded" />
+              <LabelStyle Disabled="false" />
+            </Layer>
+            <Layer name="3" order="2">
+              <LayerType>Points</LayerType>
+              <isBaseLayer value="False" />
+              <isReorderedBaseLayer value="False" />
+              <isRestlyedBaseLayer value="False" />
+              <baseLabelOverriden value="False" />
+              <isThemeLayer value="False" />
+              <DisplayName>ASSAULT</DisplayName>
+              <DataConnection>#3</DataConnection>
+              <ShowInLegend value="True" />
+              <ZoomToLayer value="True" />
+              <Disable value="False" />
+              <PointStyle Color="#ff0000" StockPointStyle="circle" />
+              <ThemeStyle ColorMethod="Ramp" EndColor="#ff0000" ManualTiles="" NoneSpecificValuesAction="Color" NumTiles="5" SpecificValues="" StartColor="#0000ff" TileMethod="SmartTile" UniqueColors="#dc143c,#6495ed,#f0e68c,#228b22,#a9a9a9,#ffa500,#ba55d3,#a0522d,#ff69b4,#4b0082,#d3d3d3,#9acd32,#00ffff,#808000,#ffb6c1" UpperCutoffIncludedExcluded="Excluded" />
+              <LabelStyle Disabled="false" />
+            </Layer>
+            <Layer name="4" order="3">
+              <LayerType>Points</LayerType>
+              <isBaseLayer value="False" />
+              <isReorderedBaseLayer value="False" />
+              <isRestlyedBaseLayer value="False" />
+              <baseLabelOverriden value="False" />
+              <isThemeLayer value="False" />
+              <DisplayName>ROBBERY</DisplayName>
+              <DataConnection>#4</DataConnection>
+              <ShowInLegend value="True" />
+              <ZoomToLayer value="True" />
+              <Disable value="False" />
+              <PointStyle Color="#80ff80" StockPointStyle="diamond" />
+              <ThemeStyle ColorMethod="Ramp" EndColor="#ff0000" ManualTiles="" NoneSpecificValuesAction="Color" NumTiles="5" SpecificValues="" StartColor="#0000ff" TileMethod="SmartTile" UniqueColors="#dc143c,#6495ed,#f0e68c,#228b22,#a9a9a9,#ffa500,#ba55d3,#a0522d,#ff69b4,#4b0082,#d3d3d3,#9acd32,#00ffff,#808000,#ffb6c1" UpperCutoffIncludedExcluded="Excluded" />
+              <LabelStyle Disabled="false" />
+            </Layer>
+            <Layer name="5" order="4">
+              <LayerType>Points</LayerType>
+              <isBaseLayer value="False" />
+              <isReorderedBaseLayer value="False" />
+              <isRestlyedBaseLayer value="False" />
+              <baseLabelOverriden value="False" />
+              <isThemeLayer value="False" />
+              <DisplayName>WEAPONS VIOLATION</DisplayName>
+              <DataConnection>#5</DataConnection>
+              <ShowInLegend value="True" />
+              <ZoomToLayer value="True" />
+              <Disable value="False" />
+              <PointStyle Color="#c0c0c0" StockPointStyle="building" />
+              <ThemeStyle ColorMethod="Ramp" EndColor="#ff0000" ManualTiles="" NoneSpecificValuesAction="Color" NumTiles="5" SpecificValues="" StartColor="#0000ff" TileMethod="SmartTile" UniqueColors="#dc143c,#6495ed,#f0e68c,#228b22,#a9a9a9,#ffa500,#ba55d3,#a0522d,#ff69b4,#4b0082,#d3d3d3,#9acd32,#00ffff,#808000,#ffb6c1" UpperCutoffIncludedExcluded="Excluded" />
+              <LabelStyle Disabled="false" />
+            </Layer>
+            <Layer name="Base Layers - Points" order="5">
+              <DisplayName>Base Layers - Points</DisplayName>
+              <DataConnection />
+              <LayerType>Placeholder</LayerType>
+              <ShowLabel value="False" />
+            </Layer>
+            <Layer name="Base Layers - Lines" order="6">
+              <DisplayName>Base Layers - Lines</DisplayName>
+              <DataConnection />
+              <LayerType>Placeholder</LayerType>
+              <ShowLabel value="False" />
+            </Layer>
+            <Layer name="Base Layers - Polygons" order="7">
+              <DisplayName>Base Layers - Polygons</DisplayName>
+              <DataConnection />
+              <LayerType>Placeholder</LayerType>
+              <ShowLabel value="False" />
+            </Layer>
+          </Layers>
+          <Legend>
+            <LegendStyle Position="Right" UseCommaSeparators="false" />
+          </Legend>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Added layer for these 5 type of crime with different color and symbol to visualize the data on map. This will mark point which crime has happened in which area.</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxReportMap" />
+    </Node>
+    <Node ToolID="75">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1158" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Devesh\AppData\Local\Temp\Alteryx\Engine_17976_e02e4fc399df424381deb39379de4215_\Engine_17976_a1b164c8a2499945af3d6c93af750e2b~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Map>
+                  <BaseMap>[No Base Map]</BaseMap>
+                </Map>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText><![CDATA[added browse tool to visualize the map ]]></AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="79">
+      <GuiSettings Plugin="PlotlyCharting">
+        <Position x="702" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ChartingFields>
+            <Traces json:Array="true" xmlns:json="http://james.newtonking.com/projects/json">
+              <type>bar</type>
+              <mode>markers</mode>
+              <xsrc>Primary Type</xsrc>
+              <ysrc>CountNonNull_Police Districts</ysrc>
+              <orientation>v</orientation>
+              <transforms json:Array="true">
+                <type>groupby</type>
+                <groupssrc>Primary Type</groupssrc>
+                <styles>
+                  <target>BURGLARY</target>
+                  <value>
+                    <name>BURGLARY</name>
+                    <marker>
+                      <line>
+                        <width>0</width>
+                      </line>
+                    </marker>
+                  </value>
+                </styles>
+                <styles>
+                  <target>OBSCENITY</target>
+                  <value>
+                    <visible>true</visible>
+                    <marker>
+                      <line>
+                        <width>0</width>
+                      </line>
+                    </marker>
+                  </value>
+                </styles>
+                <styles>
+                  <target>CRIMINAL DAMAGE</target>
+                  <value>
+                    <name>CRIMINAL DAMAGE</name>
+                    <marker>
+                      <line>
+                        <width>0</width>
+                      </line>
+                    </marker>
+                  </value>
+                </styles>
+                <styles>
+                  <target>KIDNAPPING</target>
+                  <value>
+                    <marker>
+                      <line>
+                        <width>0</width>
+                      </line>
+                    </marker>
+                  </value>
+                </styles>
+                <styles>
+                  <target>OTHER OFFENSE</target>
+                  <value>
+                    <marker>
+                      <line>
+                        <width>0</width>
+                      </line>
+                    </marker>
+                  </value>
+                </styles>
+                <styles>
+                  <target>ARSON</target>
+                  <value>
+                    <marker>
+                      <line>
+                        <width>0</width>
+                      </line>
+                    </marker>
+                  </value>
+                </styles>
+                <styles>
+                  <target>WEAPONS VIOLATION</target>
+                  <value>
+                    <marker>
+                      <line>
+                        <width>0</width>
+                      </line>
+                    </marker>
+                  </value>
+                </styles>
+                <styles>
+                  <target>CRIM SEXUAL ASSAULT</target>
+                  <value>
+                    <marker>
+                      <line>
+                        <width>0</width>
+                      </line>
+                    </marker>
+                  </value>
+                </styles>
+                <styles>
+                  <target>NON-CRIMINAL (SUBJECT SPECIFIED)</target>
+                  <value>
+                    <marker>
+                      <line>
+                        <width>0</width>
+                      </line>
+                    </marker>
+                  </value>
+                </styles>
+                <styles>
+                  <target>NARCOTICS</target>
+                  <value>
+                    <marker>
+                      <line>
+                        <width>0</width>
+                      </line>
+                    </marker>
+                  </value>
+                </styles>
+                <styles>
+                  <target>OTHER NARCOTIC VIOLATION</target>
+                  <value>
+                    <marker>
+                      <line>
+                        <width>0</width>
+                      </line>
+                    </marker>
+                  </value>
+                </styles>
+                <styles>
+                  <target>LIQUOR LAW VIOLATION</target>
+                  <value>
+                    <marker>
+                      <line>
+                        <width>0</width>
+                      </line>
+                    </marker>
+                  </value>
+                </styles>
+                <styles>
+                  <target>CRIMINAL TRESPASS</target>
+                  <value>
+                    <marker>
+                      <line>
+                        <width>0</width>
+                      </line>
+                    </marker>
+                  </value>
+                </styles>
+                <styles>
+                  <target>SEX OFFENSE</target>
+                  <value>
+                    <marker>
+                      <line>
+                        <width>0</width>
+                      </line>
+                    </marker>
+                  </value>
+                </styles>
+                <styles>
+                  <target>NON - CRIMINAL</target>
+                  <value>
+                    <marker>
+                      <line>
+                        <width>0</width>
+                      </line>
+                    </marker>
+                  </value>
+                </styles>
+                <styles>
+                  <target>HUMAN TRAFFICKING</target>
+                  <value>
+                    <marker>
+                      <line>
+                        <width>0</width>
+                      </line>
+                    </marker>
+                  </value>
+                </styles>
+                <styles>
+                  <target>ROBBERY</target>
+                  <value>
+                    <marker>
+                      <line>
+                        <width>0</width>
+                      </line>
+                    </marker>
+                  </value>
+                </styles>
+                <styles>
+                  <target>CONCEALED CARRY LICENSE VIOLATION</target>
+                  <value>
+                    <marker>
+                      <line>
+                        <width>0</width>
+                      </line>
+                    </marker>
+                  </value>
+                </styles>
+                <styles>
+                  <target>HOMICIDE</target>
+                  <value>
+                    <marker>
+                      <line>
+                        <width>0</width>
+                      </line>
+                    </marker>
+                  </value>
+                </styles>
+                <styles>
+                  <target>OFFENSE INVOLVING CHILDREN</target>
+                  <value>
+                    <marker>
+                      <line>
+                        <width>0</width>
+                      </line>
+                    </marker>
+                  </value>
+                </styles>
+                <styles>
+                  <target>ASSAULT</target>
+                  <value>
+                    <marker>
+                      <line>
+                        <width>0</width>
+                      </line>
+                    </marker>
+                  </value>
+                </styles>
+                <styles>
+                  <target>RITUALISM</target>
+                  <value>
+                    <marker>
+                      <line>
+                        <width>0</width>
+                      </line>
+                    </marker>
+                  </value>
+                </styles>
+                <styles>
+                  <target>PUBLIC INDECENCY</target>
+                  <value>
+                    <marker>
+                      <line>
+                        <width>0</width>
+                      </line>
+                    </marker>
+                  </value>
+                </styles>
+                <styles>
+                  <target>PUBLIC PEACE VIOLATION</target>
+                  <value>
+                    <marker>
+                      <line>
+                        <width>0</width>
+                      </line>
+                    </marker>
+                  </value>
+                </styles>
+                <styles>
+                  <target>STALKING</target>
+                  <value>
+                    <marker>
+                      <line>
+                        <width>0</width>
+                      </line>
+                    </marker>
+                  </value>
+                </styles>
+                <styles>
+                  <target>GAMBLING</target>
+                  <value>
+                    <marker>
+                      <line>
+                        <width>0</width>
+                      </line>
+                    </marker>
+                  </value>
+                </styles>
+                <styles>
+                  <target>NON-CRIMINAL</target>
+                  <value>
+                    <marker>
+                      <line>
+                        <width>0</width>
+                      </line>
+                    </marker>
+                  </value>
+                </styles>
+                <styles>
+                  <target>MOTOR VEHICLE THEFT</target>
+                  <value>
+                    <marker>
+                      <line>
+                        <width>0</width>
+                      </line>
+                    </marker>
+                  </value>
+                </styles>
+                <styles>
+                  <target>INTERFERENCE WITH PUBLIC OFFICER</target>
+                  <value>
+                    <marker>
+                      <line>
+                        <width>0</width>
+                      </line>
+                    </marker>
+                  </value>
+                </styles>
+                <styles>
+                  <target>PROSTITUTION</target>
+                  <value>
+                    <marker>
+                      <line>
+                        <width>0</width>
+                      </line>
+                    </marker>
+                  </value>
+                </styles>
+                <styles>
+                  <target>DOMESTIC VIOLENCE</target>
+                  <value>
+                    <marker>
+                      <line>
+                        <width>0</width>
+                      </line>
+                    </marker>
+                  </value>
+                </styles>
+                <styles>
+                  <target>CRIMINAL SEXUAL ASSAULT</target>
+                  <value>
+                    <marker>
+                      <line>
+                        <width>0</width>
+                      </line>
+                    </marker>
+                  </value>
+                </styles>
+                <styles>
+                  <target>BATTERY</target>
+                  <value>
+                    <marker>
+                      <line>
+                        <width>0</width>
+                      </line>
+                    </marker>
+                  </value>
+                </styles>
+                <styles>
+                  <target>INTIMIDATION</target>
+                  <value>
+                    <marker>
+                      <line>
+                        <width>0</width>
+                      </line>
+                    </marker>
+                  </value>
+                </styles>
+                <styles>
+                  <target>THEFT</target>
+                  <value>
+                    <marker>
+                      <line>
+                        <width>0</width>
+                      </line>
+                    </marker>
+                  </value>
+                </styles>
+                <styles>
+                  <target>DECEPTIVE PRACTICE</target>
+                  <value>
+                    <marker>
+                      <line>
+                        <width>0</width>
+                      </line>
+                    </marker>
+                  </value>
+                </styles>
+                <groups>KIDNAPPING</groups>
+                <groups>OTHER OFFENSE</groups>
+                <groups>ARSON</groups>
+                <groups>WEAPONS VIOLATION</groups>
+                <groups>CRIM SEXUAL ASSAULT</groups>
+                <groups>NON-CRIMINAL (SUBJECT SPECIFIED)</groups>
+                <groups>NARCOTICS</groups>
+                <groups>OTHER NARCOTIC VIOLATION</groups>
+                <groups>LIQUOR LAW VIOLATION</groups>
+                <groups>CRIMINAL TRESPASS</groups>
+                <groups>SEX OFFENSE</groups>
+                <groups>NON - CRIMINAL</groups>
+                <groups>HUMAN TRAFFICKING</groups>
+                <groups>ROBBERY</groups>
+                <groups>CONCEALED CARRY LICENSE VIOLATION</groups>
+                <groups>HOMICIDE</groups>
+                <groups>CRIMINAL DAMAGE</groups>
+                <groups>OFFENSE INVOLVING CHILDREN</groups>
+                <groups>ASSAULT</groups>
+                <groups>RITUALISM</groups>
+                <groups>PUBLIC INDECENCY</groups>
+                <groups>PUBLIC PEACE VIOLATION</groups>
+                <groups>STALKING</groups>
+                <groups>GAMBLING</groups>
+                <groups>NON-CRIMINAL</groups>
+                <groups>MOTOR VEHICLE THEFT</groups>
+                <groups>INTERFERENCE WITH PUBLIC OFFICER</groups>
+                <groups>PROSTITUTION</groups>
+                <groups>DOMESTIC VIOLENCE</groups>
+                <groups>CRIMINAL SEXUAL ASSAULT</groups>
+                <groups>BATTERY</groups>
+                <groups>INTIMIDATION</groups>
+                <groups>THEFT</groups>
+                <groups>OBSCENITY</groups>
+                <groups>BURGLARY</groups>
+                <groups>DECEPTIVE PRACTICE</groups>
+              </transforms>
+              <visible>true</visible>
+              <textposition>None</textposition>
+              <marker>
+                <line>
+                  <width>0</width>
+                </line>
+              </marker>
+              <name>&lt;br&gt;</name>
+            </Traces>
+            <Layout>
+              <title>
+                <text>Crime type in Police Districts</text>
+              </title>
+              <font>
+                <family>sans-serif</family>
+                <size>12</size>
+              </font>
+              <autosize>false</autosize>
+              <width>800</width>
+              <height>500</height>
+              <showlegend>true</showlegend>
+              <hovermode>closest</hovermode>
+              <xaxis>
+                <range>-0.5</range>
+                <range>35.5</range>
+                <autorange>true</autorange>
+                <title>
+                  <text>&lt;b&gt;Primary Type&lt;/b&gt;</text>
+                </title>
+                <tickfont>
+                  <size>12</size>
+                  <color>rgb(163, 6, 69)</color>
+                </tickfont>
+                <nticks>0</nticks>
+                <showline>true</showline>
+                <showgrid>true</showgrid>
+                <separatethousands>true</separatethousands>
+                <type>category</type>
+              </xaxis>
+              <yaxis>
+                <range>0</range>
+                <range>908225.26315789472</range>
+                <autorange>true</autorange>
+                <title>
+                  <text>&lt;b&gt;No of Police Districs&lt;/b&gt;</text>
+                </title>
+                <separatethousands>true</separatethousands>
+                <type>linear</type>
+                <showline>true</showline>
+                <tickfont>
+                  <color>rgb(145, 4, 22)</color>
+                </tickfont>
+                <nticks>5</nticks>
+              </yaxis>
+              <margin>
+                <pad>0</pad>
+                <t>27</t>
+                <b>300</b>
+                <l>80</l>
+                <r>80</r>
+              </margin>
+              <legend>
+                <font>
+                  <size>12</size>
+                </font>
+                <borderwidth>0</borderwidth>
+                <x>1.1134589255441061</x>
+                <y>1</y>
+              </legend>
+            </Layout>
+          </ChartingFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Created a bar graph through which user can visualize number of crime.</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="PortfolioPluginsEngine.dll" EngineDllEntryPoint="ComposerInteractiveCharting" />
+    </Node>
+    <Node ToolID="80">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="774" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Devesh\AppData\Local\Temp\Alteryx\Engine_17976_e02e4fc399df424381deb39379de4215_\Engine_17976_4f3eb5122cd56a47ac15b1467d5a4edc~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>browse tool is used to see the output of graph.</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="82">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="750" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">C:\Users\Devesh\Documents\HW1\list of crime type and district.csv</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>used to downloaded .csv file for summarized table</AnnotationText>
+          <DefaultAnnotationText>list of crime type and district.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="True" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="24" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="True" />
+      <Destination ToolID="24" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Join" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Join" />
+      <Destination ToolID="66" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="79" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="82" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="66" Connection="Output" />
+      <Destination ToolID="67" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="67" Connection="Output" />
+      <Destination ToolID="68" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="67" Connection="Output" />
+      <Destination ToolID="69" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="67" Connection="Output" />
+      <Destination ToolID="71" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="67" Connection="Output" />
+      <Destination ToolID="72" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="67" Connection="Output" />
+      <Destination ToolID="70" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="68" Connection="True" />
+      <Destination ToolID="73" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="69" Connection="True" />
+      <Destination ToolID="73" Connection="Input" />
+    </Connection>
+    <Connection name="#4">
+      <Origin ToolID="70" Connection="True" />
+      <Destination ToolID="73" Connection="Input" />
+    </Connection>
+    <Connection name="#5">
+      <Origin ToolID="71" Connection="True" />
+      <Destination ToolID="73" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="72" Connection="True" />
+      <Destination ToolID="73" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="73" Connection="Output" />
+      <Destination ToolID="75" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="79" Connection="Output" />
+      <Destination ToolID="80" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <IsTemplate value="False" />
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>New Workflow6</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="71988a9e-c906-4f93-819d-337cbb401fc4" />
+      <Telemetry>
+        <PreviousWorkflowId value="c7f5f3b7-e593-4e53-b9e8-64597aab5451" />
+        <OriginWorkflowId value="c7f5f3b7-e593-4e53-b9e8-64597aab5451" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
